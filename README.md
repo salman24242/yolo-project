@@ -36,34 +36,34 @@ You can download it from the Ultralytics
 
 **Usage**
 **Image Detection**
-python pytorch_inference.py
-Place your image in data/image.png and run the script. Output will be saved to outputs/output_image.png.
+1) python pytorch_inference.py
+2) Place your image in data/image.png and run the script. Output will be saved to outputs/output_image.png.
 
 **Video Detection**
-python yolo_video_detection.py
-Place your video in data/video.mp4 and run the script. Output will be saved to outputs/output_video.mp4.
+1) python yolo_video_detection.py
+2) Place your video in data/video.mp4 and run the script. Output will be saved to outputs/output_video.mp4.
 
 
 **Detectable Objects**
 The model can detect 80 classes including:
 
-People, vehicles (car, truck, bus, bicycle, motorcycle)
-Animals (dog, cat, bird, horse, etc.)
-Common objects (chair, laptop, phone, etc.)
+1) People, vehicles (car, truck, bus, bicycle, motorcycle)
+2) Animals (dog, cat, bird, horse, etc.)
+3) Common objects (chair, laptop, phone, etc.)
 
 See full list in COCO dataset classes.
 **Results**
 Detection results include:
 
-Class name and ID
-Confidence score
-Bounding box coordinates
-Annotated output images/videos
+1) Class name and ID
+2) Confidence score
+3) Bounding box coordinates
+4) Annotated output images/videos
 
 **Acknowledgments**
 
-Ultralytics YOLO
-COCO Dataset
+1) Ultralytics YOLO
+2) COCO Dataset
 
 **Contact**
 Salman - salman.ta12312@gmail.com
