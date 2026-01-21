@@ -33,17 +33,6 @@ pip install -r requirements.txt
 **Download YOLO model weights:**
 You can download it from the Ultralytics 
 
-**Project Structure**
-
-yolo_project/
-├── data/                     # Input images and videos
-├── model/                    # YOLO model weights (.pt files)
-├── outputs/                  # Detection results
-├── pytorch_inference.py      # Image detection script
-├── yolo_video_detection.py   # Video detection script
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
-
 
 **Usage**
 **Image Detection**
